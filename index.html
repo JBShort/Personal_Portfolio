@@ -46,15 +46,17 @@
     </div>
     <div class="contactme">
         <h2>Contact Me</h2>
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="namecontactme">
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="emailcontactme">
-        <div class="message">
-            <label for="messageme">Message:</label>
-            <textarea name="messageme" id="messagemecontactme" cols="30" rows="10"></textarea>
-        </div>
+        <form action="contact" method="get"></form>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="namecontactme">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="emailcontactme">
+            <div class="message">
+                <label for="messageme">Message:</label>
+                <textarea name="messageme" id="messagemecontactme" cols="30" rows="10"></textarea>
+            </div>
         <button type="submit">Send Message</button>
+        </form>
     </div>
 </body>
 </html>
